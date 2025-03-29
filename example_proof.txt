@@ -1,0 +1,26 @@
+# This file contains multiple proofs for testing
+
+PROOF: Disjunctive Syllogism
+PREMISE: p | q
+PREMISE: !p
+CONCLUSION: q
+
+PROOF: Modus Ponens
+PREMISE: p --> q
+PREMISE: p
+CONCLUSION: q
+
+PROOF: Hypothetical Syllogism
+PREMISE: p --> q
+PREMISE: q --> r
+CONCLUSION: p --> r
+
+PROOF: Complex Destructive Dilemma Proof
+PREMISE: p --> (q & r)
+PREMISE: q --> s
+PREMISE: r --> t
+PREMISE: (s & t) --> u
+PREMISE: !u
+PREMISE: p | v
+PREMISE: v --> (q & r)
+CONCLUSION: !p
